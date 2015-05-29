@@ -1,0 +1,134 @@
+@charset "utf-8";
+.banner-mod .focus-img ul li .img-box,.banner-mod .focus-img ul li .txt-box,.banner-mod .focus-img ul li,.info-mod ul li
+{
+    float: left;display: inline-block;
+}
+/*banner*/
+.banner-mod{height: 268px;background:url("img/bannerBg_0.jpg") repeat-x center 0;}
+.banner-mod .focus-img{overflow: hidden;height: 268px;}
+.banner-mod .focus-img ul li{height: 268px;display:inline-block;visibility: hidden;}
+.banner-mod .focus-img ul .active{visibility:visible;}
+.banner-mod .focus-img ul li a{height: 268px;overflow: hidden;display: block;}
+.banner-mod .focus-img ul li .img-app-box{margin-left:240px;}
+.banner-mod .focus-img ul li .img-box{width: 275px;}
+.banner-mod .focus-img ul li .txt-box{width: 630px;padding-left: 50px;}
+.banner-mod .focus-img ul li .txt-box h4{font-size: 3.0em;color:#fff;margin:70px 0 0 0px;font-weight: normal;}
+.banner-mod .focus-img ul li .txt-box .brief{margin: 20px 0px 0 0;overflow: hidden;height: 65px;color:#fff;font-size: 1.4em;}
+.banner-mod .focus-img ul li .txt-box .brief img{margin: 0px 20px 0 0;}
+.banner-mod .focus-img ul li .txt-box .brief p{margin-bottom: 10px;}
+.banner-mod .focus-img ul li .tb-img{width: 14%;}
+.banner-mod .focus-img ul li .tb-txt{width: 85%;}
+/*list*/
+.info-mod{padding:0 40px;margin-top:2%;}
+.info-mod ul{overflow: hidden;}
+.info-mod ul li{width: 21%;margin:2% 2%;}
+.info-mod ul li .thumbnail{width: 100%;margin: 0 auto;display: block;padding:10px 0;border: 4px solid #f8f8f8;
+transition: all 0.2s ease-in-out 0s;}
+.info-mod ul li .img-txt-attach-mod{position: relative;padding-bottom: 36px;}
+.info-mod ul li .img-box{text-align: center;padding:0 10px;height:148px;overflow:hidden;}
+.info-mod ul li .caption{position: absolute;left: 0;bottom: 0;width: 100%;}
+.info-mod ul li .animate-box{background:#fff;width: 100%;}
+.info-mod ul li .animate-box h4{margin-bottom:10px;padding:10px 5px 0 5px;font-size: 1.2em;height:16px;overflow:hidden;white-space: nowrap;text-overflow: ellipsis;}
+.info-mod ul li .img-info{color: #999;height: 0;overflow: hidden;padding: 0 10px;transition: all 0.4s ease 0s;}
+.info-mod ul li .attach-mod{overflow: hidden;padding: 0 5px;color:#999;}
+.info-mod ul li a:hover{border: 4px solid #09c;}
+.info-mod ul li a:hover .img-info{height:50px;line-height: 1.4em;}
+/*pagination*/
+.pagination-mod{padding:0 40px;}
+.pagination{border-radius: 4px;display: inline-block;margin: 20px 0;padding-left: 0;overflow:hidden;background: #fff;}
+.pagination li {display: inline;}
+.pagination li a, .pagination li span {
+background: #fff;color: #428bca;float: left;
+padding:10px 16px;position: relative;text-decoration: none;
+}
+.pagination .active a,
+.pagination .active span,
+.pagination .active a:hover,
+.pagination .active span:hover,
+.pagination .active a:focus,
+.pagination .active span:focus{
+    background-color: #428bca;color: #fff;cursor: default;z-index: 2;
+}
+.pagination li a:hover{background:#eee;}
+/*二级列表页*/
+.sub-banner{height: 80px;}
+.sub-pos-mod{overflow: hidden;padding-top:35px;color:#fff;}
+.site-position{width: 40%;margin-top: 5px;}
+.current-txt{width: 60%;text-align: right;font-size:16px;}
+.site-position a{color:#fff;}
+.site-position  .breadcrumb{padding-left: 40px;height: 16px;overflow: hidden;}
+.breadcrumb li{display: inline-block;font-size: 1.2em;float: left;margin-right: 10px;}
+.breadcrumb  li + li:before{color: #fff;content: "/ ";padding: 0 5px;}
+/*内容页*/
+.content-mod{margin-top:40px;margin-bottom:40px;}
+.content-show{width:80%;}
+.content-show .title{font:28px/36px "Microsoft YaHei";}
+.content-show .tit-bar{padding: 5px 0 10px 0;font-weight: normal;color:#666;border-bottom: 1px dotted #ddd;margin: 10px 0;}
+.content-show .tit-bar a{margin-right: 10px;}
+.content-show .tit-bar span{margin: 0 5px;}
+.content-brief{border:1px dashed #ddd;margin:20px 0;padding: 10px;font-size: 14px;color:#666;}
+.content-main{font-size: 14px;color:#333;padding:0 10px;}
+.content-main-mod{border:2px solid #f8f8f8;background:#fff;line-height: 2em;min-height: 600px;height:auto!important;height:100%;_height:600px;border-bottom: 1px dotted #ddd;overflow: hidden;padding: 20px;}
+.content-attach{width: 20%;}
+/*响应布局处理*/
+.nav-toggle{ margin-bottom: 8px;margin-right: 15px;
+    margin-top: 8px;padding: 9px 10px;
+    background:#f9f9f9;border: none;border-radius:4px;
+    box-sizing:border-box;
+    position: relative;display: none;}
+.nav-toggle .sr-only{border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;}
+.nav-toggle .icon-bar{ border-radius: 1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+    background-color:#0099cc;
+    margin-top: 4px;
+}
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .container-mod{width: 980px;}
+    .banner-mod .focus-img ul li .img-app-box{margin-left:50px;}
+    .banner-mod .focus-img ul li .txt-box{padding-left:20px;}
+}
+/*
+@media screen and (max-width:640px){
+    .container-mod{width:640px;}
+    .banner-mod .focus-img ul li .img-app-box{margin-left:10px;}
+    .banner-mod .focus-img ul li .txt-box{padding-left:10px;width:340px; }
+
+    .attach-mod{display: none;}
+    .info-mod ul li{width: 41%;}
+    .info-mod ul li .img-txt-attach-mod{padding-bottom: 20px;}
+    .content-attach{display: none;}
+    .content-show{margin: 0 auto;float: none;}
+
+    .banner-mod .focus-img ul li .tb-img{width:20%;}
+    .banner-mod .focus-img ul li .tb-txt{width: 70%;margin-left: 10%;}
+    .banner-mod .focus-img ul li .txt-box h4{font-size:26px;}
+
+    .nav-toggle{float: right;display: inline-block;height: 20px;}
+    .logo h1{float: left;display: inline-block;height: 55px;margin:10px 0 0 10px;}
+    .header{height: auto;}
+    .logo, .nav{display:block;float: none;width: 100%;margin: 0 auto;}
+    .header .logo-nav-mod,.header .search-mod{float: none;text-align: center;width: 100%;margin: 0 auto;display: block;}
+    .header .search-mod{padding-bottom: 15px;display: none;}
+    .header .nav{display: none;}
+    .nav ul li{float: none;}
+    .search-bar{margin: 0 auto;width: 90%;}
+}
+@media screen and (min-width: 320px) and (max-width:480px){
+    .container-mod{width:320px;}
+    .content-show{margin: 0 auto;float: none;width: 90%;}
+    .info-mod ul li{width:90%;margin-left: 0;margin-right: 0;}
+    .banner-mod{height:60px;}
+    .banner-mod .focus-img{display: none;}
+    .sub-pos-mod{padding-top:20px;}
+    .sub-pos-mod .current-txt{display: none;}
+    .sub-pos-mod .site-position{width: 100%;}
+}*/

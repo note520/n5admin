@@ -1,0 +1,4 @@
+﻿RewriteEngine on
+RewriteCond $1 !^(index\\.php|admin|uploadfiles|static|images|js|ue|css|webApp|robots\\.txt)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+

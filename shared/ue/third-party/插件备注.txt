@@ -1,0 +1,11 @@
+codemirror 代码高亮
+
+SyntaxHighlighter 代码高亮
+
+highcharts 纯Javascript图表库
+
+snapscreen 百度截屏插件
+
+webuploader 上传组件
+
+zeroclipboard 复制的功能

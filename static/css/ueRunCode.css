@@ -1,0 +1,5 @@
+pre{margin: 0;}
+.run-code-mod{border: 1px solid #ccc;margin: 10px 0;overflow: hidden;background:#f2f2f2;}
+.run-code-textArea{background:#fff;box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15) inset;overflow: hidden;padding:5px;margin: 0;}
+.run-code-textArea textarea{width: 100%;border:none;min-height: 100px;margin: 0;}
+.run-code-btn{background: #597ab2;color:#fff;margin:5px;padding:5px;text-align: center;text-decoration: none;width: 80px;border: none;cursor: pointer;}

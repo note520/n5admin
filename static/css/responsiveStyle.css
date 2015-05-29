@@ -1,0 +1,147 @@
+/**
+* author:978873550@qq.com
+* update:2013-12-27
+* webSite:www.note520.com
+**/
+/*宽屏*/
+@media only screen and (min-width:1024px) {
+    .w1000{max-width:1280px;width: auto;}
+    /****首页****/
+    /*头部*/
+    .header-main{max-width:1280px;width: auto;}
+    .nav{max-width: 100%;}
+    .banner .img-show{margin: 0 auto;}
+    .banner .prev{left: 20%;}
+    .banner .next{right: 20%;}
+    /*最近更新*/
+    .info-img-mod .col-tit, .may-container .col-tit{left: 46%;}
+    .info-img-list li{display:inline-block;max-width:270px;overflow: hidden;}
+    .info-img-list li .img-box{width:70px;}
+    .info-img-list li .txt-box{width:180px;margin-left: 20px;}
+    /*感兴趣*/
+    .maySlider{height: 180px;}
+    .maySlider .img-show{max-width:900px;}
+    .maySlider .img-show ul li{max-width:900px;}
+    .maySlider .img-show ul li .txt-box{overflow:hidden;}
+    .maySlider .prev{left: 2%;}
+    .maySlider .next{right: 2%;}
+    /**信息列表**/
+    .show-ban ul li{max-width:1280px;width: auto;margin: 0 auto;}
+    .show-mod .show-lf{width: 1010px;}
+    .info-news-list li .txt-box{width: 750px;}
+}
+/*标准*/
+@media only screen and (max-width:1024px) {
+    .w1000{width:1000px;}
+    .info-img-list li{max-width: none;}
+    .banner .prev{left: 1%;}
+    .banner .next{right: 1%;}
+    /**信息列表**/
+    .show-ban ul li{max-width:1000px;width: auto;margin: 0 auto;}
+    .show-mod .show-lf{width: 759px;}
+    .info-news-list li .txt-box{width: 520px;}
+}
+/*iPhone*/
+@media only screen and (max-width:640px) {
+    .w1000{max-width:640px;}
+    /****首页****/
+    /*头部*/
+    .header-main{max-width:640px;}
+    .nav{max-width: 100%;width: auto;display: none; }
+    .navIco{display: block;}
+    .nav{width: 100%;}
+    .nav ul{overflow: hidden;width: 100%;}
+    .nav ul li{}
+    /*最近更新*/
+    .info-img-mod .col-tit, .may-container .col-tit{left: 40%;padding: 8px 20px;}
+    .info-img-list li{display:block;max-width:320px;width:auto;overflow: hidden;}
+    .info-img-list li .img-box{width:70px;}
+    .info-img-list li .txt-box{width:180px;margin-left: 20px;}
+    /*感兴趣*/
+    .maySlider{height: 120px;}
+    .maySlider .img-show{max-width:400px;width: auto;}
+    .maySlider .img-show ul li{max-width:400px;width: auto;}
+    .maySlider .img-show ul li .img-box{width: 20%;height: 80%;}
+    .maySlider .img-show ul li .txt-box{width: 70%;overflow:hidden;}
+    .maySlider .prev{left: 2%;}
+    .maySlider .next{right: 2%;}
+    /**信息列表**/
+    .show-ban ul li{max-width:620px;width: auto;margin: 0 auto;padding: 0 10px;}
+    .show-mod .show-lf{width: 640px;display: block;float: none;}
+    .info-news-list li{padding:30px 10px;}
+    .info-news-list li .img-box{width:180px;}
+    .info-news-list li .txt-box{width: 420px;}
+    .show-mod .show-rg{width:180px;float: none;margin: 0 auto;padding: 0px;}
+    /**图片列表**/
+    .info-pic-list li{width: 160px;}
+    .info-pic-list li .img-box{width: 158px;}
+    .show-mod .show-rg .search-mod{margin: 20px auto;}
+}
+/*Android*/
+@media only screen and (max-width:480px) {
+    .w1000{max-width:480px;width: auto;}
+    /****首页****/
+    /*头部*/
+    .header-main{max-width:480px;width: auto;}
+    .nav ul li{float: none;display: block;text-align: center;width: 100%;margin: 0 auto;}
+    /*最近更新*/
+    .info-img-mod .col-tit, .may-container .col-tit{left: 40%;padding: 8px 20px;}
+    .info-img-list li{display:block;float: none;max-width:480px;width:auto;overflow: hidden;}
+    .info-img-list li .txt-box{width:340px;}
+    /*感兴趣*/
+    .maySlider{height: 120px;}
+    .maySlider .img-show{max-width:400px;width: auto;}
+    .maySlider .img-show ul li{max-width:400px;width: auto;}
+    .maySlider .img-show ul li .img-box{display: none;}
+    .maySlider .img-show ul li .txt-box{width:100%;overflow:hidden;}
+    .maySlider .prev{left: 2%;}
+    .maySlider .next{right: 2%;}
+    /**信息列表**/
+    .show-ban ul li{max-width:460px;width: auto;margin: 0 auto;padding: 0 10px;}
+    .show-ban ul li .txt-box{max-width:480px;}
+    .info-news-list li b{display: none;}
+    .info-news-list li p{height: 46px;}
+    .show-mod .show-lf{width: 480px;display: block;float: none;}
+    .info-news-list li{padding:30px 10px;}
+    .info-news-list li .img-box{width:120px;}
+    .info-news-list li .txt-box{width: 320px;}
+    .show-mod .show-rg{width:480px;float: none;margin: 0 auto;padding: 0px;}
+    /**图片列表**/
+    .info-pic-list li{width: 180px;}
+    .info-pic-list li .img-box{width: 178px;}
+    .show-mod .show-rg .search-mod{margin: 20px auto;}
+}
+/*Android*/
+@media only screen and (max-width:320px) {
+    .w1000{max-width:320px;width: auto;}
+    /****首页****/
+    /*头部*/
+    .header-main{max-width:320px;width: auto;}
+    /*banner*/
+    .banner .nav-item{left:40%;}
+    /*搜索*/
+    .interact-cont .search-mod{float: none;display: block;margin: 0 auto 1em auto;}
+    .interact-cont .message-mod{float: none;display: block;margin: 0 auto 1em auto;}
+    /*最近更新*/
+    .info-img-mod .col-tit, .may-container .col-tit{left: 40%;padding: 8px 20px;}
+    .info-img-list li{display:block;float: none;max-width:100%;width:auto;overflow: hidden;}
+    .info-img-list li .txt-box{width:180px;}
+    /*感兴趣*/
+    .maySlider{height: 120px;}
+    .maySlider .img-show{max-width:280px;width: auto;}
+    .maySlider .img-show ul li{max-width:260px;width: auto;margin: 0 auto;}
+    /**信息列表**/
+    .show-ban ul li{max-width:300px;width: auto;margin: 0 auto;padding: 0 10px;}
+    .show-ban ul li .txt-box{max-width:320px;}
+    .info-news-list li b{display: none;}
+    .info-news-list li p{height: 46px;}
+    .show-mod .show-lf{width: 320px;display: block;float: none;}
+    .info-news-list li .img-box{width:240px;float: none;display: block;margin: 0 auto;}
+    .info-news-list li .txt-box{width: 240px;float: none;display: block;margin: 15px auto 0 auto;}
+    .show-mod .show-rg{width:320px;float: none;margin: 0 auto;display: block;}
+    /**图片列表**/
+    .info-pic-list li{margin: 20px auto;float: none;display: block;}
+    .show-mod .show-rg .search-mod{margin: 20px auto;}
+}
+
+
